@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/contact.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+	</head>
+
+	<body>
+		<!--nav-->
+		<header>
+			<div id="header_nav">
+				<a href="index.html"><img src="img/index/logo.png" id="header_img" /></a>
+				<ul id="header_nav_list">
+					<li><a href="index.html">首页</a>
+					<li><a href="sell.html">产品贩售</a></li>
+					<li><a href="news.html">公司动态</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+				<h3>一刻钟 • 带你的味蕾环游世界</h3>
+				<div id="header_btn">
+					<hr />
+					<hr />
+				</div>
+			</div>
+		</header>
+		<!--主体-->
+		<div class="up">
+
+			<div class="cover">
+				<div class="upmain">
+					<h1>Contact us</h1>
+					<h2>联系我们</h2>
+					<div></div>
+					<p>一刻钟</p>
+					<p>带你的味蕾环游世界</p>
+				</div>
+			</div>
+		</div>
+		<!--地图-->
+		<div id="container" style="width: 459px;height: 206px;"></div>
+		<script src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+		<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css" />
+		<script type="text/javascript" src="http://webapi.amap.com/demos/js/liteToolbar.js"></script>
+		<script>
+			var map = new AMap.Map("container", {
+				resizeEnable: true,
+				center: [104.0642279027, 30.5438918650],
+				zoom: 16
+			});
+			addMarker();
+
+			function addMarker() {
+				map.clearMap();
+				var marker = new AMap.Marker({
+					map: map,
+					position: [104.0642279027, 30.5438918650]
+				});
+				AMap.event.addListener(marker, 'click', function() {
+					infoWindow.open(map, marker.getPosition());
+				});
+			}
+
+			var title = '成都零食侠科技有限公司',
+				content = [];
+			content.push("地址 :天府五街菁蓉国际广场6栋A区");
+
+			var infoWindow = new AMap.InfoWindow({
+				isCustom: true, //使用自定义窗体
+				content: createInfoWindow(title, content.join("<br/>")),
+				offset: new AMap.Pixel(16, -45)
+			});
+
+			function createInfoWindow(title, content) {
+				var info = document.createElement("div");
+				info.className = "info";
+
+				var top = document.createElement("div");
+				var titleD = document.createElement("div");
+				var closeX = document.createElement("img");
+				top.className = "info-top";
+				titleD.innerHTML = title;
+				closeX.src = "http://webapi.amap.com/images/close2.gif";
+				closeX.onclick = closeInfoWindow;
+
+				top.appendChild(titleD);
+				top.appendChild(closeX);
+				info.appendChild(top);
+				var middle = document.createElement("div");
+				middle.className = "info-middle";
+				middle.style.backgroundColor = 'white';
+				middle.innerHTML = content;
+				info.appendChild(middle);
+				var bottom = document.createElement("div");
+				bottom.className = "info-bottom";
+				bottom.style.position = 'relative';
+				bottom.style.top = '0px';
+				bottom.style.margin = '0 auto';
+				var sharp = document.createElement("img");
+				sharp.src = "http://webapi.amap.com/images/sharp.png";
+				bottom.appendChild(sharp);
+				info.appendChild(bottom);
+				return info;
+			}
+
+			function closeInfoWindow() {
+				map.clearInfoWindow();
+			}
+		</script>
+
+		<div class="down">
+			<p>电话：400-1619917/028-69861996</p>
+			<p>web:www.snackman.cn</p>
+			<p>E-mail:hr@snackman.cn</p>
+			<p>微信：snackman-cd</p>
+			<p>地址：四川省成都市天府五街菁蓉国际广场6栋A区</p>
+		</div>
+		<div class="gray"></div>
+		<!--footer-->
+		<div class="footer">
+			<p>Copyright © 2015-2016 成都零食侠科技有限公司。蜀ICP备 15027883号-1</p>
+		</div>
+		<div id="back"><img src="img/HJ.png"/></div>
+	</body>
+	<script src="js/jquery-2.2.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/tween.js"></script>
+	<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

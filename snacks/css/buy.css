@@ -1,0 +1,126 @@
+.btnBuy_page {
+	width: 600px;
+	height: 850px;
+	border: 1px solid gray;
+}
+
+.buyList_title {
+	width: 575px;
+	height: 45px;
+	background-color: rgb(245, 245, 245);
+	color: gray;
+	line-height: 45px;
+	padding-left: 25px;
+}
+
+.ppp {
+	padding-left: 25px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+.buylist_contant {
+	width: 600px;
+	height: 76px;
+	margin-left: 20px;
+}
+
+.buylist_contant_nav {
+	width: 560px;
+	height: 37px;
+	border: 1px solid gray;
+	color: gray;
+	background-color: rgb(245, 245, 245);
+	line-height: 37px;
+}
+
+.buylist_contant_con {
+	width: 560px;
+	height: 37px;
+	border: 1px solid gray;
+	color: darktgray;
+	line-height: 37px;
+}
+
+.btnBuy_page span {
+	display: inline-block;
+}
+
+.buylist1 {
+	width: 340px;
+	border-right: 1px solid gray;
+	text-align: center;
+}
+
+.buylist2 {
+	width: 109px;
+	border-right: 1px solid gray;
+	text-align: center;
+}
+
+.buylist3 {
+	width: 109px;
+	text-align: center;
+}
+
+.baoyou {
+	width: 560px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.baoyou span {
+	display: inline-block;
+	float: right;
+}
+
+.address_title {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+.address input {
+	background-color: rgb(245, 245, 245);
+	width: 200px;
+	height: 25px;
+}
+
+.disBtn {
+	width: 95px;
+	height: 35px;
+	background-color: rgb(245, 245, 245);
+	border: 1px solid gray;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+}
+
+.sureBTN {
+	width: 95px;
+	height: 35px;
+	background-color: blue;
+	color: white;
+	margin-left: 25px;
+	border: 1px solid gray;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+}
+
+.btnpage {
+	overflow: hidden;
+	float: right;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.btnBuy_page {
+	position: fixed;
+	;
+	left: 35%;
+	top: 50px;
+	background-color: rgb(245, 245, 245);
+	z-index: 10000;
+	display: none;
+}

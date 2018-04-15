@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*立即购买部分*/
+
+#page {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(100, 100, 100, 0.5);
+	display: none;
+	z-index: 10000;
+}
+
+#yanz {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -115px;
+	margin-top: -100px;
+	width: 230px;
+	height: 200px;
+	background-color: red;
+}
+
+#yz_img {
+	width: 200px;
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#head {
+	width: 54px;
+	height: 45px;
+	position: absolute;
+	left: -11px;
+	top: 39px;
+	opacity: 0;
+}
+
+#yz_slide {
+	width: 200px;
+	height: 20px;
+	background-color: blue;
+	margin: 20px auto;
+	border-radius: 10px;
+	position: relative;
+}
+
+#yz_move {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: yellow;
+}
+
+.count {
+	width: 150px;
+}
+
+.count .add,
+.count input,
+.count .reduce {
+	float: left;
+	margin-right: -1px;
+	position: relative;
+	z-index: 0;
+}
+
+.count .add,
+.count .reduce {
+	height: 23px;
+	width: 20px;
+	border: 1px solid #e5e5e5;
+	background: #f0f0f0;
+	text-align: center;
+	line-height: 23px;
+	color: #444;
+}
+
+.count .add:hover,
+.count .reduce:hover {
+	color: #f50;
+	z-index: 3;
+	border-color: #f60;
+	cursor: pointer;
+}
+
+.count input {
+	width: 100px;
+	height: 15px;
+	line-height: 15px;
+	border: 1px solid #aaa;
+	color: #343434;
+	text-align: center;
+	padding: 4px 0;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.buyNow {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+}
+
+.countOp {
+	width: 90%;
+	margin-left: 5%;
+	height: 270px;
+	border: 1px solid gainsboro;
+	border-radius: 15px;
+}
+
+.headEat {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+
+.headEat img {
+	width: 100%;
+	height: 100%;
+}
+
+.btnBuy {
+	width: 90%px;
+	height: 36px;
+	background-color: rgb(255, 192, 48);
+	text-align: center;
+	line-height: 36px;
+	color: white;
+	border-radius: 5px;
+}
+
+.countOp p:nth-child(1) {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+.countOp p:nth-child(2) {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.countOp p:nth-child(2),
+.count {
+	float: left;
+}
+
+.count {
+	padding-top: 15px;
+	float: right;
+	margin-right: 10px;
+}
+
+.buyNow p:nth-child(1) {
+	margin-left: 10px;
+	margin-bottom: 50px;
+	color: gray;
+}
+
+.all_details {
+	text-align: center;
+	width: 100%;
+}
+
+.all_details div {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.all_details div img {
+	width: 100%;
+}
+
+.all_details h2 {
+	margin-bottom: 10px;
+}
+
+.all_details p {
+	margin-bottom: 10px;
+}

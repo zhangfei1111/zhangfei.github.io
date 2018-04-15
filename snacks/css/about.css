@@ -1,0 +1,288 @@
+@media only screen and (min-width:640px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	/*初始团队*/
+	.foundingTeam {
+		background-image: url(../img/about/bg1.jpg);
+		width: 100%;
+		height: 780px;
+	}
+	.foundTitle {
+		margin: 0 auto;
+		width: 211px;
+		height: 67px;
+		padding-top: 50px;
+		margin-bottom: 50px;
+	}
+	.swiper-container {
+		width: 1100px;
+		height: 430px;
+		padding-top: 150px;
+	}
+	.swiper-slide p {
+		display: none;
+	}
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		/*display: -webkit-box;*/
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	/*intor*/
+	.intro1,
+	.intro2,
+	.intro3 {
+		width: 320px;
+		height: 355px;
+		padding-top: 120px;
+		border: 1px solid white;
+		background-color: white;
+		color: gray;
+	}
+	.intro2 {
+		margin-left: 20px;
+	}
+	.intro3 {
+		margin-left: 20px;
+	}
+	.intro1 p,
+	.intro2 p,
+	.intro3 p {
+		margin-bottom: 15px;
+	}
+	.intro_contant {
+		width: 290px;
+		padding-left: 10px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	/*头像部分*/
+	.headImg1,
+	.headImg2,
+	.headImg3 {
+		width: 140px;
+		height: 140px;
+		text-align: center;
+		line-height: 140px;
+		position: absolute;
+	}
+	.headImg1 img {
+		width: 130px;
+		height: 130px;
+		border-radius: 65px;
+		border: 1px solid gray;
+	}
+	.headImg2 img {
+		width: 130px;
+		height: 130px;
+		border-radius: 65px;
+		border: 1px solid gray;
+	}
+	.headImg3 img {
+		width: 130px;
+		height: 130px;
+		border-radius: 65px;
+		border: 1px solid gray;
+	}
+	.headImg1 {
+		left: 140px;
+		top: -80px;
+	}
+	.headImg2 {
+		left: 480px;
+		top: -80px;
+	}
+	.headImg3 {
+		left: 820px;
+		top: -80px;
+	}
+	/*关于我们*/
+	.aboutUs {
+		width: 100%;
+		height: 475px;
+		border: 1px solid black;
+		padding-top: 85px;
+	}
+	.aboutUs_all {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.aboutUs_contant {
+		width: 970px;
+	}
+	.aboutUs_all span,
+	.aboutUs_all p {
+		padding-left: 10px;
+	}
+	.aboutUs_all p {
+		margin-bottom: 20px;
+		color: gray;
+	}
+	.aboutUs_title {
+		margin-bottom: 50px;
+	}
+	/*发展历程*/
+	.development {
+		width: 100%;
+		height: 670px;
+		border: 1px solid black;
+		padding-top: 85px;
+		background-color: rgb(255, 215, 58);
+	}
+	.develop_all {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.develop_contant {
+		width: 970px;
+	}
+	.develop_all span,
+	.aboutUs_all p {
+		padding-left: 10px;
+	}
+	.develop_all p {
+		margin-bottom: 20px;
+		color: gray;
+	}
+	.develop_title {
+		margin-bottom: 50px;
+	}
+	/*底部空白*/
+	.kong {
+		width: 100%;
+		height: 45px;
+		background-color: rgb(236, 233, 233);
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	/*初始团队*/
+	.foundingTeam {
+		background-image: url(../img/关于我们/bg1.jpg);
+		width: 100%;
+		height: 400px;
+	}
+	.foundTitle {
+		margin: 0 auto;
+		width: 211px;
+		height: 67px;
+		padding-top: 20px;
+		margin-bottom: 15px;
+	}
+	.swiper-container {
+		width: 1100px;
+		height: 430px;
+		padding-top: 150px;
+	}
+	.swiper-slide div {
+		display: none;
+	}
+	.swiper-slide p {
+		display: block;
+		width: 40%;
+		height: 130px;
+		background-color: white;
+		position: relative;
+		left: -250px;
+		top: -200px;
+	}
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		/*display: -webkit-box;*/
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	/*关于我们*/
+	.aboutUs {
+		width: 100%;
+		height: 700px;
+		border: 1px solid black;
+		padding-top: 30px;
+	}
+	.aboutUs_all {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.aboutUs_contant {
+		width: 100%;
+	}
+	.aboutUs_all span,
+	.aboutUs_all p {
+		padding-left: 5px;
+	}
+	.aboutUs_all p {
+		margin-bottom: 5px;
+		line-height: 20px;
+		color: gray;
+	}
+	.aboutUs_title {
+		margin-bottom: 25px;
+	}
+	/*发展历程*/
+	.development {
+		width: 100%;
+		height: 800px;
+		border: 1px solid black;
+		padding-top: 20px;
+		background-color: rgb(255, 215, 58);
+	}
+	.develop_all {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.develop_contant {
+		width: 100%;
+	}
+	.develop_all span,
+	.aboutUs_all p {
+		padding-left: 10px;
+	}
+	.develop_all p {
+		margin-bottom: 8px;
+		line-height: 18px;
+		color: gray;
+	}
+	.develop_title {
+		margin-bottom: 20px;
+	}
+	/*底部空白*/
+	.kong {
+		width: 100%;
+		height: 25px;
+		background-color: rgb(236, 233, 233);
+	}
+}
+.footer {
+	width: 100%;
+	height: 58px;
+	background-color: black;
+	color: darkgray;
+	text-align: center;
+	line-height: 58px;
+}

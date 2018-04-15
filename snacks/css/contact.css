@@ -1,0 +1,268 @@
+@media only screen and (min-width: 800px) {
+	html,
+	body {
+		height: 100%;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	/*主体*/
+	.up {
+		width: 100%;
+		background-image: url(../img/contact/bg2.jpg);
+		height: 254px;
+		background-size: 100%;
+		position: relative;
+		margin-bottom: 60px;
+	}
+	.up .upmain {
+		width: 440px;
+		margin: auto;
+		color: white;
+	}
+	.up .upmain h1 {
+		font-size: 45px;
+		font-weight: 900;
+		margin-bottom: 7px;
+	}
+	.up .upmain h2 {
+		font-size: 30px;
+		font-weight: 100;
+		margin-bottom: 13px;
+	}
+	.up .upmain div {
+		width: 30px;
+		height: 4px;
+		background-color: rgb(143, 204, 148);
+		margin-bottom: 5px;
+	}
+	.up .upmain p {
+		margin-bottom: 5px;
+	}
+	.up .cover {
+		width: 100%;
+		height: 197px;
+		position: absolute;
+		top: 0;
+		background-color: rgba(0, 0, 0, 0.4);
+		padding-top: 57px;
+	}
+	/*地图*/
+	#container {
+		margin: 461px auto 25px;
+		overflow: hidden;
+	}
+	.info {
+		border: solid 1px silver;
+	}
+	div.info-top {
+		position: relative;
+		background: none repeat scroll 0 0 #F9F9F9;
+		border-bottom: 1px solid #CCC;
+		border-radius: 5px 5px 0 0;
+	}
+	div.info-top div {
+		display: inline-block;
+		color: #333333;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 31px;
+		padding: 0 10px;
+	}
+	div.info-top img {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		transition-duration: 0.25s;
+	}
+	div.info-top img:hover {
+		box-shadow: 0px 0px 5px #000;
+	}
+	div.info-middle {
+		font-size: 12px;
+		padding: 6px;
+		line-height: 20px;
+	}
+	div.info-bottom {
+		height: 0px;
+		width: 100%;
+		clear: both;
+		text-align: center;
+	}
+	div.info-bottom img {
+		position: relative;
+		z-index: 104;
+	}
+	span {
+		margin-left: 5px;
+		font-size: 11px;
+	}
+	.info-middle img {
+		float: left;
+		margin-right: 6px;
+	}
+	/*下*/
+	.down {
+		width: 440px;
+		margin: 400px auto 56px;
+	}
+	.down p {
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+	.gray {
+		width: 100%;
+		height: 43px;
+		background-color: rgb(236, 233, 233);
+	}
+	/*footer*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.footer {
+		width: 100%;
+		height: 58px;
+		background-color: black;
+		color: darkgray;
+		text-align: center;
+		line-height: 58px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	/*主体*/
+	.up {
+		width: 100%;
+		background-image: url(../img/contact/bg2.jpg);
+		height: 176px;
+		background-size: 100%;
+		position: relative;
+		margin-bottom: 11.25%;
+		padding-top: 16.75%;
+	}
+	.up .upmain {
+		width: 300px;
+		margin: auto;
+		color: white;
+		margin-left: 25px;
+	}
+	.up .upmain h1 {
+		font-size: 25px;
+		font-weight: 900;
+		margin-bottom: 7px;
+	}
+	.up .upmain h2 {
+		font-size: 24px;
+		font-weight: 100;
+		margin-bottom: 13px;
+	}
+	.up .upmain div {
+		width: 30px;
+		height: 4px;
+		background-color: rgb(143, 204, 148);
+		margin-bottom: 5px;
+	}
+	.up .upmain p {
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+	.up .cover {
+		width: 100%;
+		position: absolute;
+		top: 11%;
+		background-color: rgba(0, 0, 0, 0.4);
+		padding-top: 16.75%;
+		height: 146px;
+	}
+	/*地图*/
+	/*高我随便给的,加上地图你看着改*/
+	#container {
+		margin: 59.99% auto 25px;
+		overflow: hidden;
+		width: 93%;
+		height: 38.686%;
+	}
+	.info {
+		border: solid 1px silver;
+	}
+	div.info-top {
+		position: relative;
+		background: none repeat scroll 0 0 #F9F9F9;
+		border-bottom: 1px solid #CCC;
+		border-radius: 5px 5px 0 0;
+	}
+	div.info-top div {
+		display: inline-block;
+		color: #333333;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 31px;
+		padding: 0 10px;
+	}
+	div.info-top img {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		transition-duration: 0.25s;
+	}
+	div.info-top img:hover {
+		box-shadow: 0px 0px 5px #000;
+	}
+	div.info-middle {
+		font-size: 12px;
+		padding: 6px;
+		line-height: 20px;
+	}
+	div.info-bottom {
+		height: 0px;
+		width: 100%;
+		clear: both;
+		text-align: center;
+	}
+	div.info-bottom img {
+		position: relative;
+		z-index: 104;
+	}
+	span {
+		margin-left: 5px;
+		font-size: 11px;
+	}
+	.info-middle img {
+		float: left;
+		margin-right: 6px;
+	}
+	/*下*/
+	.down {
+		width: 90%;
+		margin: 400px auto 13.468%;
+	}
+	.down p {
+		margin-bottom: 7px;
+		font-size: 14px;
+	}
+	.gray {
+		width: 100%;
+		height: 17px;
+		background-color: rgb(236, 233, 233);
+	}
+	/*footer*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.footer {
+		width: 100%;
+		height: 58px;
+		background-color: black;
+		color: darkgray;
+		text-align: center;
+		line-height: 58px;
+	}
+}

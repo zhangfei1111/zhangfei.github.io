@@ -1,0 +1,16 @@
+            *{margin: 0;padding: 0;}
+		    p{color: gray;font-size: 15px;line-height: 25px;}
+		    .trends_title{width: 985px;margin: 0 auto;margin-bottom: 50px;}
+		    .trends_title p:nth-child(1){margin-top: 40px;}
+		    .trends_title h1{margin: 0 auto;width: 530px;margin-top: 50px;margin-bottom: 30px;}
+		    .trends_contant1{width: 985px;}
+			.trends_contant1_left{width: 475px;height: 300px;}
+			.trends_contant1_left img{width: 100%;height: 100%;}
+			.trends_contant1_right{width: 475px;height: 300px;margin-left: 35px;}
+			.trends_contant1{overflow: hidden;width: 985px;margin: 0 auto;}
+			.trends_contant1_left,.trends_contant1_right{float: left;}
+			.trends_contant2{width: 985px;margin: 0 auto;margin-top: 50px;margin-bottom: 80px;}
+			.trends_contant2_img1{width: 585px;height: 385px;margin: 0 auto;margin-bottom: 10px;margin-top: 30px;}
+			.trends_contant2_img2{width: 585px;height: 385px;margin: 0 auto;margin-bottom: 20px;} 
+			.trends_contant2_img1 img{width: 100%;height: 100%;}
+			.trends_contant2_img2 img{width: 100%;height: 100%;}
